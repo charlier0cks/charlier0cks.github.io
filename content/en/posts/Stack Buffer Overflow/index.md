@@ -64,7 +64,7 @@ s.close()
 ```
 
 - You will now be able to see the `EIP` which is what we need
-![landscape](gettingthe_eip.png){align="center"}
+![landscape](gettingthe_eip.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 - Using a metasploit tool called pattern_offset
 ```
@@ -93,7 +93,7 @@ s.close()
 ```
 
 - When we run this payload, we will see that we now have complete control of the EIP
-![landscape](overwriting_eip.png){align="center"}
+![landscape](overwriting_eip.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 - We can see that the EIP is 42424242, which tells us that we have control of the EIP
 
@@ -120,7 +120,7 @@ s.close()
 ```
 4. Grab the `ESP` which in this case is `007419E4`. Mona will use the ESP to compare and find bad characters
 5. Using mona to compare and find bad chars with `!mona compare -f C:\mona\gatekeeper\bytearray.bin -a <ESPaddress>`
-![landscape](comparingbadchars_mona.png){align="center"}
+![landscape](comparingbadchars_mona.png){:style="display:block; margin-left:auto; margin-right:auto"}
 6. Remove the bad char from our badchars variable in our python script
 
 ## Finding a Jump Point
@@ -191,4 +191,4 @@ s.close()
 ```
 
 - Success!
-![landscape](successfulBoF.png){align="center"}
+![landscape](successfulBoF.png){:style="display:block; margin-left:auto; margin-right:auto"}
