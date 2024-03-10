@@ -26,7 +26,19 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 # set markup.highlight.noClasses=false to enable code highlight
 [markup]
   [markup.highlight]
-    noClasses = false
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'hrdark'
+    tabWidth = 4
   [markup.goldmark.renderer]
     unsafe = true
 	[markup.tableOfContents]
