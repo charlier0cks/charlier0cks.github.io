@@ -189,6 +189,6 @@ s.connect(('10.10.20.232', 31337))
 s.send(payload)
 s.close()
 ```
-
 - Success!
-![landscape](successfulBoF.png)
+
+![Successful BoF Attack](successfulBoF.png)
