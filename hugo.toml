@@ -98,7 +98,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 [Languages.en-gb.params.author]
   avatar = "avatar.png" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Charlie Definitely Rocks"
+  intro = "🔥 Charlie's Notes"
   name = "Charlie T"
   description = "Place for me to dump things. Place for you to pick up things."
 
